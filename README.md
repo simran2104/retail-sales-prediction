@@ -1,4 +1,4 @@
-# 🛒 Retail Sales Prediction Using Machine Learning
+# 🛒 Retail Sales Prediction
 
 A machine learning project to predict product-level retail sales using historical product and store data.
 
@@ -34,13 +34,13 @@ The dataset contains 8,540 records with 14 columns. The project explores sales p
 
 **Histogram-Based Gradient Boosting** was selected as the final model based on its cross-validation and test performance.
 
-| Evaluation Metric | Test Result |
-|---|---:|
-| R² Score | **0.6167** |
-| MAE | 748.05 |
-| RMSE | 1,063.94 |
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/903f40d9-31f4-42fe-b3b7-c222ac821663" />
 
-The model explained approximately 61.67% of the variation in sales in the test dataset.
+| Evaluation Metric | Hist Gradient Boosting | Random Forest | LassoCV |
+|---|---:|---:|---:|
+| **MAE** | **748.0478** | 744.2010 | 822.6807 |
+| **RMSE** | **1,063.9425** | 1,069.1023 | 1,122.4889 |
+| **R²** | **0.6167** | 0.6130 | 0.5733 |
 
 ## 🧰 Technologies Used
 
